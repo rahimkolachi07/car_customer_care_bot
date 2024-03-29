@@ -1,0 +1,189 @@
+{
+	"info": {
+		"_postman_id": "bc7ca849-1881-4157-a5f1-c5c7c105a7ff",
+		"name": "autobot fiverr",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5596044"
+	},
+	"item": [
+		{
+			"name": "getCars Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://autobot.co.il/site/api/api.php?action=getCars&company=מאזדה",
+					"protocol": "https",
+					"host": [
+						"autobot",
+						"co",
+						"il"
+					],
+					"path": [
+						"site",
+						"api",
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "action",
+							"value": "getCars"
+						},
+						{
+							"key": "company",
+							"value": "מאזדה"
+						},
+						{
+							"key": "year",
+							"value": "2006",
+							"disabled": true
+						},
+						{
+							"key": "engine",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "model",
+							"value": "6",
+							"disabled": true
+						},
+						{
+							"key": "km",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "yad",
+							"value": "2",
+							"disabled": true
+						},
+						{
+							"key": "color",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "count",
+							"value": "0",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "getCars",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://autobot.co.il/site/api/api.php?action=getCars&company=מאזדה",
+							"protocol": "https",
+							"host": [
+								"autobot",
+								"co",
+								"il"
+							],
+							"path": [
+								"site",
+								"api",
+								"api.php"
+							],
+							"query": [
+								{
+									"key": "action",
+									"value": "getCars"
+								},
+								{
+									"key": "company",
+									"value": "מאזדה"
+								},
+								{
+									"key": "year",
+									"value": "2006",
+									"disabled": true
+								},
+								{
+									"key": "engine",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "model",
+									"value": "6",
+									"disabled": true
+								},
+								{
+									"key": "km",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "yad",
+									"value": "2",
+									"disabled": true
+								},
+								{
+									"key": "color",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "count",
+									"value": "0",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 27 Feb 2024 08:38:22 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.52 (Ubuntu)"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "https://my.autobot.co.il"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2010"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"content\": {\n        \"messages\": [\n            {\n                \"type\": \"cards\",\n                \"image_aspect_ratio\": \"horizontal\",\n                \"elements\": [\n                    {\n                        \"title\": \"מאזדה-6 2008\",\n                        \"subtitle\": \"מנוע-1999,יד-5,מחיר-16800\",\n                        \"image_url\": \"https://autobot-car-img.s3.eu-central-1.amazonaws.com/private_user_images/2059111-0.webp\",\n                        \"action_url\": \"https://autobot.co.il/מאזדה-2059111.html?query_id=\",\n                        \"buttons\": [\n                            {\n                                \"type\": \"url\",\n                                \"caption\": \"לפרטים נוספים\",\n                                \"webview_size\": \"medium\",\n                                \"url\": \"https://autobot.co.il/מאזדה-2059111.html?query_id=\"\n                            }\n                        ]\n                    }\n                ]\n            },\n            {\n                \"type\": \"cards\",\n                \"image_aspect_ratio\": \"horizontal\",\n                \"elements\": [\n                    {\n                        \"title\": \"מאזדה-CX-5 2015\",\n                        \"subtitle\": \"מנוע-1998,יד-4,מחיר-111111\",\n                        \"image_url\": \"https://img.yad2.co.il/Pic/202307/27/1_3/o/y2_1_03814_20230727194334.jpeg\",\n                        \"action_url\": \"https://autobot.co.il/מאזדה-2238208.html?query_id=\",\n                        \"buttons\": [\n                            {\n                                \"type\": \"url\",\n                                \"caption\": \"לפרטים נוספים\",\n                                \"webview_size\": \"medium\",\n                                \"url\": \"https://autobot.co.il/מאזדה-2238208.html?query_id=\"\n                            }\n                        ]\n                    }\n                ]\n            },\n            {\n                \"type\": \"cards\",\n                \"image_aspect_ratio\": \"horizontal\",\n                \"elements\": [\n                    {\n                        \"title\": \"מאזדה-CX-5 2018\",\n                        \"subtitle\": \"מנוע-2488,יד-1,מחיר-125000\",\n                        \"image_url\": \"https://img.yad2.co.il/Pic/202402/17/1_3/o/y2_1_01651_20240217225538.jpeg\",\n                        \"action_url\": \"https://autobot.co.il/מאזדה-8932864.html?query_id=\",\n                        \"buttons\": [\n                            {\n                                \"type\": \"url\",\n                                \"caption\": \"לפרטים נוספים\",\n                                \"webview_size\": \"medium\",\n                                \"url\": \"https://autobot.co.il/מאזדה-8932864.html?query_id=\"\n                            }\n                        ]\n                    }\n                ]\n            },\n            {\n                \"type\": \"text\",\n                \"text\": \"\",\n                \"message_num\": 2,\n                \"isWaitForPrevious\": true\n            }\n        ]\n    },\n    \"actions\": [],\n    \"quick_replies\": [],\n    \"version\": \"v2\"\n}"
+				}
+			]
+		}
+	]
+}
